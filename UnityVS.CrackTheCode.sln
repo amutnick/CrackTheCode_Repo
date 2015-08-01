@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.CrackTheCode.CSharp.Plugins", "UnityVS.CrackTheCode.CSharp.Plugins.csproj", "{FCBD8611-9B47-DBBB-0FD7-4E2D4BE03C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.CrackTheCode.CSharp", "UnityVS.CrackTheCode.CSharp.csproj", "{C80D0C51-B906-1291-6E2C-C7D39C7B2A38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.CrackTheCode.CSharp.Editor", "UnityVS.CrackTheCode.CSharp.Editor.csproj", "{22F48B67-83A1-7EF0-2840-338DA4AD588C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCBD8611-9B47-DBBB-0FD7-4E2D4BE03C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBD8611-9B47-DBBB-0FD7-4E2D4BE03C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBD8611-9B47-DBBB-0FD7-4E2D4BE03C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBD8611-9B47-DBBB-0FD7-4E2D4BE03C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C80D0C51-B906-1291-6E2C-C7D39C7B2A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C80D0C51-B906-1291-6E2C-C7D39C7B2A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C80D0C51-B906-1291-6E2C-C7D39C7B2A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C80D0C51-B906-1291-6E2C-C7D39C7B2A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F48B67-83A1-7EF0-2840-338DA4AD588C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F48B67-83A1-7EF0-2840-338DA4AD588C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F48B67-83A1-7EF0-2840-338DA4AD588C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F48B67-83A1-7EF0-2840-338DA4AD588C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

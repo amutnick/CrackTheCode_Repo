@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{22F48B67-83A1-7EF0-2840-338DA4AD588C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>WebPlayerStreamed:7</UnityBuildTarget>
+    <UnityVersion>5.1.0f3</UnityVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_1_0;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_1_0;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WP8.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WP8.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Metro.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Metro.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.BB10.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.BB10.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="tk2dExternal">
+      <HintPath>Assets\TK2DROOT\tk2d\Editor\tk2dExternal.dll</HintPath>
+    </Reference>
+    <Reference Include="tk2dSkin">
+      <HintPath>Assets\TK2DROOT\tk2d\Editor\tk2dSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="LostPolygon.uIntelliSense">
+      <HintPath>Assets\uIntelliSense\Editor\LostPolygon.uIntelliSense.dll</HintPath>
+    </Reference>
+    <Reference Include="fastJSON">
+      <HintPath>Assets\uIntelliSense\Editor\Plugins\fastJSON.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>Assets\uIntelliSense\Editor\Plugins\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityVS.VersionSpecific">
+      <HintPath>Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.CrackTheCode.CSharp.Plugins.csproj">
+      <Project>{FCBD8611-9B47-DBBB-0FD7-4E2D4BE03C4C}</Project>
+      <Name>UnityVS.CrackTheCode.CSharp.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityVS.CrackTheCode.CSharp.csproj">
+      <Project>{C80D0C51-B906-1291-6E2C-C7D39C7B2A38}</Project>
+      <Name>UnityVS.CrackTheCode.CSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\Editor\ActionListAssetEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\Editor\ActionListEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\Editor\ActionListEditorWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\ActionList\Editor\EditorZoomArea.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\FirstPersonCameraEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\GameCamera25DEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\GameCamera2DEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\GameCameraAnimatedEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\GameCameraEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\GameCameraThirdPersonEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\MainCameraEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Camera\Editor\_CameraEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Character\Editor\CharEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Character\Editor\NPCEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Character\Editor\PlayerEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\Editor\InvActionListAsset.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Inventory\Editor\InvActionListEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\AC_TriggerEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\ArrowPromptEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\ContainerEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\ConversationEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\ConversationEditorWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\CutsceneEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\DialogueOptionEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\HotspotEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\InteractionEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Logic\Editor\SoundEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\Editor\AdventureCreator.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\Editor\AlphaNumericSort.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\Editor\ManagerPackageAsset.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\Editor\ManagerPackageEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\Editor\NewGameWizardWindow.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Managers\Editor\ToolbarLinks.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Editor\MenuActionListAsset.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Menu\Editor\MenuActionListEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\Editor\DragBaseEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\Editor\DragTrackEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\Editor\DragTrack_CurvedEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\Editor\DragTrack_HingeEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\Editor\DragTrack_StraightEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\Editor\Moveable_DragEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Moveable\Editor\Moveable_PickUpEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\Editor\FollowSortingMapEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\Editor\NavigationMeshEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\Editor\PathsEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\Editor\PlayerStartEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Navigation\Editor\SortingMapEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\Editor\MenuLinkEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\Editor\Parallax2DEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Object\Editor\ShapeableEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\ConstantIDEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberColliderEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberConversationEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberHotspotEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberMoveableEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberNPCEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberTransformEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberTriggerEditor.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Save system\Editor\RememberVisibilityEditor.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Editors\SpriteTimelineEditor.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Editors\UICtlEditor.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Editors\UIPanelEditor.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIActionBtnInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIBistateInteractivePanelInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIBtnChangePanelInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIBtnLoadSceneInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIBtnWWWInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIButton3DInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIButtonInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UICtlInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIInteractivePanelInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIListButtonInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIListItemInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIPanelBaseInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIPanelInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIPanelTabInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIProgressBarInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIRadioBtn3DInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIRadioBtnInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UISliderInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIStateToggleBtn3DInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIStateToggleBtnInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Inspectors\UITextFieldInspector.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Wizards\About_EZ_GUI.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Wizards\BuildAtlases.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Wizards\CopyControl.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Wizards\CopyTransitions.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Wizards\SetRenderCamera.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Wizards\SpriteSizer.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Wizards\SpriteTextSizer.cs" />
+    <Compile Include="Assets\Editor\AnBSoft\Wizards\about_sm2.cs" />
+    <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Camera\tk2dCameraAnchorEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Camera\tk2dCameraEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Fonts\tk2dFontBuilder.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Fonts\tk2dFontEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Fonts\tk2dTextMeshEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Runtime\tk2dResourceEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Runtime\tk2dSystemUtility.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Shared\tk2dNaturalComparer.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\Atlas\tk2dAtlasBuilder.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\Atlas\tk2dAtlasRect.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\Atlas\tk2dMaxRectsBinPack.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\SpriteAnimationEditor\tk2dSpriteAnimationAnimOp.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\SpriteAnimationEditor\tk2dSpriteAnimationClipEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\SpriteAnimationEditor\tk2dSpriteAnimationClipTimelineEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\SpriteAnimationEditor\tk2dSpriteAnimationEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\SpriteAnimationEditor\tk2dSpriteAnimationEditorPopup.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\SpriteAnimationEditor\tk2dSpriteAnimationPreview.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\SpriteCollectionEditor\tk2dSpriteCollectionEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\SpriteCollectionEditor\tk2dSpriteCollectionEditorFontView.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\SpriteCollectionEditor\tk2dSpriteCollectionEditorPopup.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\SpriteCollectionEditor\tk2dSpriteCollectionEditorProxy.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\SpriteCollectionEditor\tk2dSpriteCollectionEditorSettingsView.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\SpriteCollectionEditor\tk2dSpriteCollectionEditorSpriteSheetView.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\SpriteCollectionEditor\tk2dSpriteCollectionEditorSpriteView.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\SpriteCollectionEditor\tk2dSpriteCollectionEditorTextureView.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\SpritePicker\tk2dSpritePickerPopup.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\TextureProcessing\tk2dFloydSteinbergDithering.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\Triangulator\tk2dSpriteFromTextureEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\Triangulator\tk2dTriangulator.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\tk2dAnimatedSpriteEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\tk2dClippedSpriteEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\tk2dSlicedSpriteEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\tk2dSpriteAnimatorEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\tk2dSpriteCollectionBuilder.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\tk2dSpriteCollectionBuilderDeprecated.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\tk2dSpriteCollectionBuilderUtil.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\tk2dSpriteCollectionLinkBuilder.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\tk2dSpriteCollectionPlatformBuilder.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\tk2dSpriteCollectionTextureWatcher.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\tk2dSpriteEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\tk2dSpriteThumbnailCache.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\tk2dStaticSpriteBatcherEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\Sprites\tk2dTiledSpriteEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\tk2dEditorSkin.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\tk2dEditorUtility.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\tk2dGrid.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\tk2dGuiUtility.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\tk2dIndex.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\tk2dJSSupport.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\tk2dMenu.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\tk2dPreferencesEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\tk2dScaleUtility.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\tk2dSceneHelper.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\tk2dSpriteGuiUtility.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\tk2dUndo.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2d\Editor\tk2dUpdateWindow.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dTileMap\Editor\Importer\tk2dTileMapImporter.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dTileMap\Editor\tk2dTileMapBrushBuilder.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dTileMap\Editor\tk2dTileMapBrushRenderer.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dTileMap\Editor\tk2dTileMapEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dTileMap\Editor\tk2dTileMapEditorData.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dTileMap\Editor\tk2dTileMapEditorDataInspector.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dTileMap\Editor\tk2dTileMapSceneGUI.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dTileMap\Editor\tk2dTileMapScratchpad.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dTileMap\Editor\tk2dTileMapToolbar.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dTileMap\Editor\tk2dTileMapUtility.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUIBaseItemControlEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUIControlsHelperEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUICustomEditorGUILayout.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUIDragItemEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUIDropDownMenuEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUIHoverItemEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUIMultiStateToggleButtonEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUIProgressBarEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUIScrollableAreaEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUIScrollbarEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUISoundItemEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUITextInputEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUIToggleButtonEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUIToggleButtonGroupEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUIToggleControlEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUITweenItemEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUIUpDownButtonEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Controls\tk2dUIUpDownHoverButtonEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Core\tk2dUIItemBoundsHelper.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Core\tk2dUIItemEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Core\tk2dUILayoutContainerEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Core\tk2dUILayoutContainerSizerEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Core\tk2dUILayoutEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Core\tk2dUIMaskEditor.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Core\tk2dUIMethodBindingHelper.cs" />
+    <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Core\tk2dUISpriteAnimatorEditor.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>
